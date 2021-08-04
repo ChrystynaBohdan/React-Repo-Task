@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
+import Hello from "./Components/hello";
 
 function App() {
   return (
     <div className="App">
-     <span>Add span</span>
+     <Hello/>
     </div>
   );
 }
